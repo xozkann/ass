@@ -4,7 +4,7 @@ if(!isset($_SESSION)) : session_start(); endif;
 try {
 
   date_default_timezone_set('Europe/Istanbul');
-  $db = NEW PDO('mysql:host=localhost;dbname=ass;charset=utf8', 'root', 'Sananelan2003!');
+  $db = NEW PDO('mysql:host=localhost;dbname=vt adı;charset=utf8', 'vt kadı', 'vt sifre');
 
 } catch (\Exception $e) {
 
